@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DragAndDrop</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="setting">Setting</string>
+
+
+    <!--    login page-->
+    <string name="sign_in_with_username">Log in met gebruikersnaam</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="password">Wacthwoord</string>
+    <string name="sign_up">Aanmelden</string>
+    <string name="sign_in">Inloggen</string>
+    <!--    register page-->
+    <string name="sign_up_with_username">Meld u aan met gebruikersnaam</string>
+    <string name="enter_email">Voer email in</string>
+    <string name="enter_password">Wachtwoord invoeren</string>
+    <string name="renter_password">Wachtwoord opnieuw invoeren</string>
+    <string name="enter_username">Vul je gebruikersnaam in</string>
+
+   <!--   content main -->
+    <string name="top_services">Topdiensten</string>
+    <string name="my_sticker">Mijn</string>
+    <string name="collections">stickercollecties!</string>
+    <string name="quiz">Tijd voor een quiz</string>
+    <string name="wasme_sanitization">Wasme sanitaire</string>
+    <string name="manual">handleiding</string>
+    <string name="buy_products_and_codes">Koop producten en codes</string>
+    <string name="shop">Winkel</string>
+    <string name="you_can_buy_codes_from_shop">U kunt codes in de winkel kopen</string>
+    <string name="puzzle">Puzzle</string>
+    <string name="time">tijd!</string>
+    <string name="home">Huis</string>
+
+    <!--   navigation drawer -->
+    <string name="my_profile">Mijn profiel</string>
+    <string name="shop_stickers">Winkel Stickers</string>
+    <string name="sticker_collections">Stickercollecties</string>
+    <string name="puzzle_time">Puzzel tijd</string>
+    <string name="quiz_time">Tijd voor een quiz</string>
+    <string name="world_of_wasme_comming_soon">World of Wasme (binnenkort beschikbaar)</string>
+    <string name="about_wasme">Over Wasme</string>
+    <string name="change_language">Change Language</string>
+    <string name="log_out">Uitloggen</string>
+
+    <!--    my stricker -->
+    <string name="my_stickers">Mijn stickers</string>
+    <string name="talula_vs_co2">Talula versus CO2</string>
+    <string name="coming_soon">(komt binnenkort)</string>
+    <string name="chami_the_brave">Chami the Brave</string>
+    <string name="gala_amp_her_discovery"><![CDATA[Gala & haar ontdekking]]></string>
+    <string name="wasme_and_the_lab">Wasme &amp; The Lab</string>
+
+    <string name="next_page">Volgende pagina</string>
+    <string name="my_puzzles">Mijn puzzels</string>
+    <string name="next">De volgende</string>
+
+    <string name="txt_push_notification">Push Notification</string>
+    <string name="txt_change">Change</string>
+    <string name="txt_terms_and_conditions">Terms and Conditions</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="txt_logout">Logout</string>
+
+
+</resources>

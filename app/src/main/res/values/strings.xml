@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Wasme Stickers</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="setting">Setting</string>
+    <string name="puzzle">Puzzle</string>
+    <string name="time">Time!</string>
+    <!--    login page-->
+    <string name="sign_in_with_username">Sign in with username</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up_with_username">Sign up with username</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="renter_password">Renter password</string>
+    <string name="enter_username">Enter username</string>
+    <string name="top_services">Top Services</string>
+    <string name="my_sticker">Sticker Booklets</string>
+    <string name="collections">Collections!</string>
+    <string name="quiz">Quiz</string>
+    <string name="wasme_sanitization">Wasme Sanitization</string>
+    <string name="manual">Manual</string>
+    <string name="buy_products_and_codes">Visit our Online Store!</string>
+    <string name="shop">Shop</string>
+    <string name="you_can_buy_codes_from_shop">You can buy codes from shop</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My profile</string>
+    <string name="shop_stickers">Shop Stickers</string>
+    <string name="sticker_collections">Sticker Collections</string>
+    <string name="puzzle_time">Puzzle Time</string>
+    <string name="quiz_time">Quiz Time</string>
+    <string name="world_of_wasme_comming_soon">World of wasme (comming soon)</string>
+    <string name="about_wasme">About Wasme</string>
+    <string name="change_language">Change Language</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="my_stickers">My Stickers</string>
+    <string name="wasme_amp_the_lab"><![CDATA[Wasme & The Lab]]></string>
+    <string name="talula_vs_co2">Talula vs CO2</string>
+    <string name="coming_soon">(coming soon)</string>
+    <string name="chami_the_brave">Chami the Brave</string>
+    <string name="gala_amp_her_discovery"><![CDATA[Gala & Her Discovery]]></string>
+    <string name="wasme_and_the_lab">Wasme and The Lab</string>
+    <string name="next_page">Next page</string>
+    <string name="my_puzzles">My Puzzles</string>
+    <string name="next">NEXT</string>
+
+    <string name="txt_push_notification">Push Notification</string>
+    <string name="txt_change">Change</string>
+    <string name="txt_terms_and_conditions">Terms and Conditions</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="txt_logout">Logout</string>
+
+</resources>

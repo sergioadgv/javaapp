@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/top_bar"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                app:srcCompat="@drawable/back"
+                app:tint="#FFFF">
+            </ImageView>
+            <TextView
+                android:layout_centerInParent="true"
+                android:textColor="#FFFF"
+                android:fontFamily="@font/roboto"
+                android:text="Sign Up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </RelativeLayout>
+
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progress_ber"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+        </ProgressBar>
+        <ScrollView
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/top_bar"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_horizontal"
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/smalllogo"></ImageView>
+
+                <TextView
+                    android:fontFamily="@font/roboto"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#FFFF"
+                    android:text="@string/sign_up_with_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <ScrollView
+                    android:scrollbars="none"
+                    android:layout_below="@+id/top_liner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edt_email"
+                            android:hint="@string/enter_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="25dp"
+                            android:background="@drawable/back_ground_shap"
+                            android:padding="10dp"
+                            android:textColorHint="@color/colorPrimaryDark"
+                            >
+
+                        </EditText>
+                        <EditText
+                            android:id="@+id/edt_pass"
+                            android:hint="@string/enter_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="25dp"
+                            android:background="@drawable/back_ground_shap"
+                            android:padding="10dp"
+                            android:textColorHint="@color/colorPrimaryDark"
+                            >
+
+                        </EditText>
+                        <EditText
+                            android:id="@+id/edt_re_pass"
+                            android:hint="@string/renter_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="25dp"
+                            android:background="@drawable/back_ground_shap"
+                            android:padding="10dp"
+                            android:textColorHint="@color/colorPrimaryDark"
+                            >
+
+                        </EditText>
+
+                        <EditText
+                            android:id="@+id/edt_user_name"
+                            android:backgroundTint="@android:color/white"
+                            android:hint="@string/enter_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="25dp"
+                            android:background="@drawable/back_ground_shap"
+                            android:padding="10dp"
+                            android:textColorHint="@color/colorPrimaryDark">
+
+                        </EditText>
+                        <EditText
+                            android:id="@+id/edt_user_country"
+                            android:backgroundTint="@android:color/white"
+                            android:hint="Country"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="25dp"
+                            android:background="@drawable/back_ground_shap"
+                            android:padding="10dp"
+                            android:textColorHint="@color/colorPrimaryDark">
+
+                        </EditText>
+
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_marginTop="30dp"
+                            android:layout_below="@+id/title_txt"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="18sp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:textColor="@android:color/white"
+                                android:text="Transfer points(optional)"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </TextView>
+
+                            <EditText
+                                android:inputType="number"
+                                android:text="@={viewmodel.points}"
+                                android:backgroundTint="@android:color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:drawableRight="@android:drawable/ic_lock_idle_lock"
+                                android:drawableTint="@android:color/white"
+                                android:fontFamily="@font/roboto"
+                                android:hint="Points"
+                                android:textColor="@android:color/white"
+                                android:textColorHint="@android:color/white">
+
+                            </EditText>
+                        </LinearLayout>
+                        <Button
+                            android:layout_marginBottom="20dp"
+                            android:id="@+id/btn_sign_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@color/colorPrimary"
+                            android:fontFamily="@font/roboto"
+                            android:text="@string/sign_up"
+                            android:textColor="#FFFF">
+                        </Button>
+                    </LinearLayout>
+                </ScrollView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+

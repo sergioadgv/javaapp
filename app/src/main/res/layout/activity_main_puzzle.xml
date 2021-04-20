@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root_view"
+    android:padding="0dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PuzzleImageActivity">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/buttom_layout"
+        android:layout_alignParentBottom="true"
+        android:background="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <ImageView
+            android:id="@+id/r_start"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_above="@+id/buttom_layout"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/my_background_fade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight=".1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/rl_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"></ImageView>
+
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_2"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_3"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_4"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_5"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+                android:id="@+id/rl_6"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:background="#EAE6E6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </TextView>
+
+        <LinearLayout
+            android:layout_weight=".1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/rl_7"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_8"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_9"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_10"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_11"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_12"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:background="#EAE6E6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </TextView>
+        <LinearLayout
+            android:layout_weight=".1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+
+                android:id="@+id/rl_13"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_14"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_15"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+                android:id="@+id/rl_16"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_17"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+                android:id="@+id/rl_18"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+        </LinearLayout>
+        <TextView
+            android:background="#EAE6E6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </TextView>
+        <LinearLayout
+            android:layout_weight=".1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/rl_19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_20"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_21"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+
+                android:id="@+id/rl_22"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+                android:id="@+id/rl_23"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+            <TextView
+                android:background="#EAE6E6"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+            </TextView>
+            <ImageView
+                android:id="@+id/rl_24"
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/hint_btn"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:cardCornerRadius="30dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp">
+
+<!--        <Button-->
+<!--            android:id="@+id/xxx"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hint"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/chewy"-->
+<!--            android:background="@drawable/my_button"/>-->
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/close_btn"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        app:cardCornerRadius="30dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/my_button">
+
+<!--        <Button-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="X"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/chewy"-->
+<!--            android:background="@drawable/my_button"/>-->
+
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:textStyle="bold"
+        android:text="2050"
+        android:id="@+id/timer_txt"
+        android:textColor="#FF0000"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#ff0000"
+        android:shadowRadius="2"
+        android:textSize="25sp"
+        android:fontFamily="@font/chewy"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:text="Timer:"
+        android:textSize="25sp"
+        android:fontFamily="@font/chewy"
+        android:textColor="#FFFF"
+        android:textStyle="bold"
+        android:shadowColor="#ff0000"
+        android:shadowRadius="2"
+        >
+
+    </TextView>
+
+
+</RelativeLayout>

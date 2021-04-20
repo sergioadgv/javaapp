@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/top_liner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_gravity="center_vertical"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            app:srcCompat="@drawable/back"
+            app:tint="#FFFF">
+        </ImageView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/title_txt"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/roboto"
+            android:textSize="15sp"
+            android:text="Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </RelativeLayout>
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/top_liner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center"
+                android:id="@+id/card1"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+                <ImageView
+                    android:id="@+id/image_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/logowasmetransparent"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/verify_profile"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto"
+                android:textColor="#F44336"
+                android:text="Your profile are not verified.Tap to upload your identity"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_below="@+id/title_txt"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@android:color/white"
+                    android:text="Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/profile_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@android:color/white"
+                    android:drawableTint="@android:color/white"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Enter Email"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/title_txt"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@android:color/white"
+                    android:text="Password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/profile_pass"
+                    android:focusable="false"
+                    android:backgroundTint="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:drawableRight="@android:drawable/ic_menu_edit"
+                    android:drawableTint="@android:color/white"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Enter password"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white">
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/title_txt"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@android:color/white"
+                    android:text="User Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/prodile_user_name"
+                    android:backgroundTint="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Enter user name"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/title_txt"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="@android:color/white"
+                    android:text="Country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/profile_country"
+                    android:backgroundTint="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto"
+                    android:hint="Enter user name"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white">
+
+                </TextView>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="#FFFF" />
+            <RelativeLayout
+                android:id="@+id/rl_push_notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <ImageView
+                    android:id="@+id/iv_notifi_settings"
+                    android:layout_width="25dp"
+                    android:layout_height="33dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/push_notification_settings"
+                    tools:ignore="ContentDescription"
+                    app:tint="#FFFF" />
+
+                <TextView
+                    android:id="@+id/tv_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/iv_notifi_settings"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/txt_push_notification"
+                    android:textColor="#FFFF"
+                    android:textSize="18sp"
+                    tools:ignore="RelativeOverlap" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    app:tint="#FFFF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="#FFFF" />
+
+            <RelativeLayout
+                android:id="@+id/rl_language_settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <ImageView
+                    app:tint="#FFFF"
+                    android:id="@+id/iv_language_settings"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/icons_language"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/tv_your_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/iv_language_settings"
+                    android:fontFamily="@font/poppins"
+                    android:text="Language"
+                    android:textColor="#FFFF"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_language_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_your_language"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/iv_language_settings"
+                    android:fontFamily="@font/poppins"
+                    android:text="English"
+                    android:textColor="#FFFF"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/txt_change"
+                    android:visibility="gone"
+                    tools:ignore="RelativeOverlap" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="#FFFF" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_terms_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <ImageView
+                    app:tint="#FFFF"
+                    android:id="@+id/iv_terms_condition_settings"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@drawable/writing_settings" />
+
+                <TextView
+                    android:id="@+id/tv_trams"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/iv_terms_condition_settings"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/txt_terms_and_conditions"
+                    android:textColor="#FFFF"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="#FFFF" />
+
+            <RelativeLayout
+                android:id="@+id/rl_privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <ImageView
+                    app:tint="#FFFF"
+                    android:id="@+id/iv_privacy_policy_settings"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@drawable/terms_condition_settings" />
+
+                <TextView
+                    android:id="@+id/tv_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="@string/txt_privacy_policy"
+                    android:textColor="#FFF"
+                    android:textSize="17sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

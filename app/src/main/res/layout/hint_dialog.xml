@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="Hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <ImageView
+        android:layout_margin="40dp"
+        android:id="@+id/hint_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/ic_baseline_cancel_24"
+        app:tint="#000">
+
+    </ImageView>
+
+
+</RelativeLayout>

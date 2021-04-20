@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#faa916</color>
+    <color name="colorPrimary">#fa790e</color>
+    <color name="colorAccent">#3b84c8</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_inactive_screen1">#ffa000</color>
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+
+    <!-- dots active colors -->
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+    <color name="home_back">#41E9E7E7</color>
+
+    <color name="bottomtab_item_resting">#36000000</color>
+    <color name="bottomtab_item_disabled">#1e000000</color>
+
+    <color name="bottomtab_0">#6CCC3D</color>
+    <color name="bottomtab_1">#EA5C46</color>
+    <color name="bottomtab_2">#33b3cc</color>
+
+    <color name="colorPrimaryNight">#3F51B5</color>
+    <color name="colorPrimaryDarkNight">#303F9F</color>
+    <color name="colorAccentNight">#FFC107</color>
+    <color name="bg_dark">#263238</color>
+
+    <color name="divider_light">#0c000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textcolor">#22464b</color>
+
+    <color name="colorBlue">#454D97</color>
+
+    <color name="colorViolet">#9C27B0</color>
+    <color name="colorVioletDeep">#682CCF</color>
+    <color name="colorAshBackground">#EBEAEC</color>
+    <color name="colorStartButton">#3A53CF</color>
+    <color name="colorLinearLayout">#19BE72</color>
+    <color name="colorStartRide">#3497FD</color>
+    <color name="colorLightAsh">#43606566</color>
+    <color name="colorAsh">#7E606566</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorYellow">#EEF3A60B</color>
+    <color name="colorDeepYellow">#EEF8AC16</color>
+    <color name="colorGmailBack">#2196F3</color>
+
+    <color name="colorSelectedCategory">#9247BE2B</color>
+
+    <color name="light_gray">#F0F5F5</color>
+    <color name="translucent_white">#80FFFFFF</color>
+    <color name="dark_gray">#243037</color>
+
+    <color name="light_blue">#59AAFF</color>
+    <color name="blue">#2C7DE3</color>
+    <color name="dark_blue">#1C6AC9</color>
+
+
+
+    <color name="black">@android:color/black</color>
+    <color name="black_transparent">#14000000</color>
+    <color name="black_transparent_image">#46000000</color>
+    <color name="active_indicator">@android:color/white</color>
+    <color name="inactive_indicator">#4D000000</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_300">#e0e0e0</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="bg">#757575</color>
+
+    <color name="dot_dark_screen1">#6F6D6D</color>
+    <color name="dot_dark_screen2">#6F6D6D</color>
+    <color name="dot_dark_screen3">#6F6D6D</color>
+    <color name="dot_dark_screen4">#6F6D6D</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#AAA7A7</color>
+    <color name="dot_light_screen2">#AAA7A7</color>
+    <color name="dot_light_screen3">#AAA7A7</color>
+    <color name="dot_light_screen4">#AAA7A7</color>
+
+    <color name="red">#F44336</color>
+
+    <color name="colorPrimary_alpha33">#64e42604</color>
+    <color name="gravy_light">#999999</color>
+
+
+    <color name="new_topbar">#8c14fc</color>
+    <color name="new_proce">#ff507c</color>
+    <color name="new_search">#ae59fd</color>
+    <color name="primary_dark_text">#28333D</color>
+    <color name="secondary_text">#434343</color>
+    <color name="secondary_light">#979797</color>
+    <color name="highlight_text">#17a1d7</color>
+    <color name="card_back">#F3F3F3</color>
+</resources>

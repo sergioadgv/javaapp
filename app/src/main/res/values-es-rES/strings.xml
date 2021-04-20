@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DragAndDrop</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="setting">Setting</string>
+    <string name="puzzle">Rompecabezas!</string>
+    <string name="time"></string>
+
+    <!--    login page-->
+    <string name="sign_in_with_username">Ingresar con Usuario</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="sign_in">Ingresar</string>
+    <!--    register page-->
+    <string name="sign_up_with_username">Registrar un Usuario</string>
+    <string name="enter_email">Ingresar Correo Electrónico</string>
+    <string name="enter_password">Ingresar Contraseña</string>
+    <string name="renter_password">Repetir Contraseña</string>
+    <string name="enter_username">Ingresar Usuario</string>
+
+    <!--   content main -->
+    <string name="top_services">Actividades</string>
+    <string name="my_sticker">Mis</string>
+    <string name="collections">Stickers!</string>
+    <string name="quiz">Tiempo de</string>
+    <string name="wasme_sanitization">Manual</string>
+    <string name="manual">de Sanitización Wasme</string>
+    <string name="buy_products_and_codes">Compra mas Stickers!</string>
+    <string name="shop">Tienda en Línea</string>
+    <string name="you_can_buy_codes_from_shop">Encuentra mas productos</string>
+    <string name="home">Menu Principal</string>
+
+    <!--   navigation drawer -->
+    <string name="my_profile">Mi perfil</string>
+    <string name="shop_stickers">Comprar pegatinas</string>
+    <string name="sticker_collections">Colecciones de pegatinas</string>
+    <string name="puzzle_time">Tiempo de rompecabezas</string>
+    <string name="quiz_time">Tiempo de prueba</string>
+    <string name="world_of_wasme_comming_soon">World of Wasme (próximamente)</string>
+    <string name="about_wasme">Sobre Wasme</string>
+    <string name="change_language">Change Language</string>
+    <string name="log_out">Cerrar sesión</string>
+    <!--   my stricker  -->
+    <string name="my_stickers">Mis pegatinas</string>
+    <string name="talula_vs_co2">Talula vs CO2</string>
+    <string name="coming_soon">(próximamente)</string>
+    <string name="chami_the_brave">Chami el Valiente</string>
+    <string name="gala_amp_her_discovery"><![CDATA[Gala y su descubrimiento]]></string>
+    <string name="wasme_and_the_lab">Wasme y el laboratorio</string>
+    <string name="next_page">Siguiente página</string>
+    <string name="my_puzzles">Mis rompecabezas</string>
+    <string name="next">De volgende</string>
+
+    <string name="txt_push_notification">Push Notification</string>
+    <string name="txt_change">Change</string>
+    <string name="txt_terms_and_conditions">Terms and Conditions</string>
+    <string name="txt_privacy_policy">Privacy Policy</string>
+    <string name="txt_logout">Logout</string>
+
+
+</resources>

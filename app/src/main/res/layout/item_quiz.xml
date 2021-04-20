@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item_card"
+        android:layout_margin="10dp"
+        android:layout_weight=".1"
+        app:cardCornerRadius="8dp"
+        android:layout_width="100dp"
+        android:layout_height="120dp">
+
+        <RelativeLayout
+            android:background="@drawable/back_home_card"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/quiz_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </ImageView>
+
+
+                <TextView
+                    android:id="@+id/name_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Shop"
+                    android:textColor="#FFFF"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/p_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Participated, Score 8/10"
+                    android:textColor="#FFFF"
+                    android:textSize="15dp">
+
+                </TextView>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
