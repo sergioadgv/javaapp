@@ -5,6 +5,7 @@
  Backend: PHP
  Communications are all in API Json
  The designs are original and were made in Gimp.
- The database is online: Login with credentials: Sergio1 | Pass
+ The database is online: Login with credentials: Sergio1 | Pass      
+ 
  Main Folder: javaapp/app/src/main/
 
